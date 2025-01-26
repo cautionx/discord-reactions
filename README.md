@@ -24,9 +24,9 @@ const client = new Client({
 });
 
 client.once('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
+    console.log(`Logged in as: ${client.user.tag}`);
 
-    const messageId = 'YOUR_MESSAGE_ID'; // Replace with your message ID
+    const messageId = 'MESSAGE_ID'; // Replace with your message ID
     const roles = [
         { emoji: '👍', roleId: 'ROLE_ID_1' },
         { emoji: '👎', roleId: 'ROLE_ID_2' },
@@ -35,7 +35,7 @@ client.once('ready', () => {
     setupReactionRoles(client, messageId, roles);
 });
 
-client.login('YOUR_BOT_TOKEN');
+client.login('TOKEN'); // https://discord.com/developers
 ```
 
 ## License
