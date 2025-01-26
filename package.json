@@ -2,18 +2,18 @@
   "name": "discord-reactions",
   "version": "1.0.0",
   "description": "A simple utility for setting up reaction roles using Discord.js.",
-  "main": "lib/index.js",
+  "main": "lib/dr.js",
   "keywords": ["discord", "reaction roles", "discord.js", "roles"],
   "author": "Joe - developerjoe07@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/simple-discord-reaction-roles.git"
+    "url": "https://github.com/cautionx/discord-reactions.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/simple-discord-reaction-roles/issues"
+    "url": "https://github.com/cautionx/discord-reactions/issues"
   },
-  "homepage": "https://github.com/your-username/simple-discord-reaction-roles",
+  "homepage": "https://github.com/cautionx/discord-reactions",
   "dependencies": {
     "discord.js": "^14.7.1"
   }
