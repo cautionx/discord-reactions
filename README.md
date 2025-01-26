@@ -1,18 +1,18 @@
-# Simple Discord Reaction Roles
+# discord-reactions
 
 A simple utility for setting up reaction roles using Discord.js.
 
 ## Installation
 
 ```bash
-npm install simple-discord-reaction-roles
+npm install discord-reactions
 ```
 
 ## Usage
 
 ```javascript
 const { Client, GatewayIntentBits } = require('discord.js');
-const setupReactionRoles = require('simple-discord-reaction-roles');
+const setupReactionRoles = require('discord-reactions');
 
 const client = new Client({
     intents: [
