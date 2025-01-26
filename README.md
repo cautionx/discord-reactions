@@ -35,7 +35,7 @@ client.once('ready', () => {
     setupReactionRoles(client, messageId, roles);
 });
 
-client.login('TOKEN'); // https://discord.com/developers
+client.login('TOKEN'); // Get your app token: https://discord.com/developers
 ```
 
 ## License
