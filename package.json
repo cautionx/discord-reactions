@@ -1,5 +1,5 @@
 {
-  "name": "discord-reactions",
+  "name": "@cautionx/discord-reactions",
   "version": "1.0.0",
   "description": "A simple utility for setting up reaction roles using Discord.js.",
   "main": "lib/dr.js",
